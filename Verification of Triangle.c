@@ -14,7 +14,7 @@ int main () {
 			if (a==b || b==c ||c==a) {
 		printf("Triangle is Isosceles");
 	        }
-	        else if ((a*a)) {
+	        else if ( ((a*a)+(b*b)) == (c*c) {
 	        	printf("Triangle is Scalene");
 			}
 	}
