@@ -3,7 +3,7 @@ int main () {
 	int a,b,c,d,e,p;
 	printf("Enter your five subjects marks : ");
 	scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
-	p=(a+b+c+d+e)/5;
+	p=((a+b+c+d+e)/5)*100;
 	if (p<35) {
 		printf("You are fail");
 	}
