@@ -41,7 +41,7 @@ int main () {
 			printf("X");
 			a-=10;
 		}
-		else if (a==9) {
+		else if (a>=9) {
 			printf("IX");
 			a-=9;
 		}
@@ -49,7 +49,7 @@ int main () {
 			printf("V");
 			a-=5;
 		}
-		else if (a==4) {
+		else if (a>=4) {
 			printf("IV");
 			a-=4;
 		}
